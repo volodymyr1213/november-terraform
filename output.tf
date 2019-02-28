@@ -3,11 +3,6 @@ output "IP" {
 
 }
 
- tags {
-    Environment = "${var.Environment}${count.index +1}"
-    Create_by = "${var.Created_by}"
-
-  }
 
 
 

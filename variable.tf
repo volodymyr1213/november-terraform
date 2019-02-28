@@ -22,10 +22,5 @@ variable "Created_by" {
   default = "Volodymyr"
 }
 
- tags {
-    Environment = "${var.Environment}${count.index +1}"
-    Create_by = "${var.Created_by}"
-
-  }
 
 
